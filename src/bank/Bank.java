@@ -22,7 +22,7 @@ public class Bank {
             System.out.print("Enter amount of all account = ");
             try {
                 int num = userInput.nextInt();
-                if (num >= 2) {
+                if (num >= 5) {
                     addDetail(num);
                     break;
                 } else {
